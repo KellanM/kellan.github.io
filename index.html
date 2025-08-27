@@ -29,6 +29,14 @@
             list-style-type: '- ';
             padding-left: 20px;
         }
+        /* Style for the nested list */
+        ul ul {
+            list-style-type: '  ↳ '; /* Using an arrow for sub-bullets */
+            padding-left: 20px;
+            margin-top: 5px;
+            font-size: 0.9em;
+            color: #555;
+        }
         a {
             color: #0056b3;
         }
@@ -43,7 +51,11 @@
     <h2>Recent Work</h2>
     <ul>
         <li>Architecting prototypes for AI-driven, multiplayer music experiences in Unreal Engine.</li>
-        <li>Leading company-wide adoption of generative AI tools, empowering non-technical teams to build their own solutions and save hundreds of hours of manual work (e.g., QA automating workflows that save 30-60 minutes per ticket).</li>
+        <li>Leading company-wide adoption of generative AI tools.
+            <ul>
+                <li>Empowered non-technical teams to build their own solutions, saving hundreds of hours (e.g., QA automating workflows that save 30-60 minutes per ticket).</li>
+            </ul>
+        </li>
     </ul>
 
     <h2>Past Projects & Community Contributions</h2>
@@ -55,7 +67,7 @@
     <h2>Contact</h2>
     <p>
         <a href="mailto:kellanmythen@gmail.com">kellanmythen@gmail.com</a> | 
-        <a href="https://www.linkedin.com/in/kellan-mythen/" target="_blank">LinkedIn</a>
+        <a href="[YOUR_LINKEDIN_URL_HERE]" target="_blank">LinkedIn</a>
     </p>
 
 </body>
